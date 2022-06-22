@@ -23,6 +23,6 @@ jobs:
       - name: Run the Application
         run: nohup npm run start &
       - name: Run HawkScan
-        uses: stackhawk/hackscan-actionv@1.3.1
+        uses: stackhawk/hawkscan-actionv@1.3.1
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
